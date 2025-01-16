@@ -9,7 +9,7 @@ genai.configure(api_key="AIzaSyCMmroQORvijxS66b4ECA-1h6OgseWqezw")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Step 1: Load CSV Data
-file_path = "interview_email_data.csv"  # Replace with the correct file path
+file_path = "data.csv"  # Replace with the correct file path
 data = pd.read_csv(file_path)
 
 # Step 2: Preprocess and Analyze Dataset
