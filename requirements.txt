@@ -1,0 +1,4 @@
+streamlit
+pandas
+google-generativeai # Ensure this matches the actual version you are using
+scikit-learn
